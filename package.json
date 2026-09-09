@@ -4,7 +4,8 @@
   "description": "Static 4-page website for **Westhaven Prestige** (Katrina & Colton West) / kennel **Konfident Step**.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx --yes serve .",
+    "deploy": "netlify deploy --prod --dir=."
   },
   "keywords": [],
   "author": "",
