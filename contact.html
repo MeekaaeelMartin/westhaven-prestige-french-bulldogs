@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Westhaven Prestige</title>
+  <meta name="description" content="Contact Katrina & Colton West — Westhaven Prestige / Konfident Step French Bulldogs." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="images/logo.png" />
+</head>
+<body>
+  <header class="site-header" id="siteHeader">
+    <div class="nav-inner">
+      <a class="brand-link" href="index.html">
+        <img src="images/logo.png" alt="Westhaven Prestige logo" />
+        <div class="brand-text">
+          <strong>WESTHAVEN PRESTIGE</strong>
+          <span>French Bulldogs</span>
+        </div>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>☰</button>
+      <ul class="nav-links" data-nav>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="dogs.html">Dogs</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <p class="eyebrow">Enquiries</p>
+        <h1>Contact</h1>
+        <p style="max-width: 34rem; color: var(--muted); margin-top: 0.75rem;">Reach Katrina &amp; Colton West about our dogs, the current litter, or showing &amp; breeding.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <aside class="contact-aside reveal">
+          <img src="images/owners-with-puppies.png" alt="Katrina and Colton West with French Bulldog puppies" />
+          <div class="identity-block">
+            <h3>WESTHAVEN PRESTIGE</h3>
+            <p>Katrina &amp; Colton West<br />French Bulldogs<br />Breeding &amp; Showing</p>
+            <div class="alt-brand">
+              <strong>KONFIDENT STEP</strong>
+              <p>Katrina &amp; Colton West | French Bulldogs</p>
+            </div>
+          </div>
+        </aside>
+
+        <div class="reveal">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="interest">Interest</label>
+              <select id="interest" name="interest">
+                <option value="litter">Current litter / puppies</option>
+                <option value="dogs">Our dogs</option>
+                <option value="showing">Breeding &amp; showing</option>
+                <option value="other">General enquiry</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required placeholder="Tell us a little about what you are looking for…"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send enquiry</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+          <p class="note">This form stores your message in the browser for now. Add your preferred email or phone when you are ready, and we can wire it to a real inbox.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">WESTHAVEN PRESTIGE</div>
+        <div class="footer-meta">
+          <p>Katrina &amp; Colton West · French Bulldogs</p>
+          <p>Kennel: Konfident Step</p>
+        </div>
+      </div>
+      <div class="footer-meta">
+        <p><a href="dogs.html">Dogs</a> · <a href="about.html">About</a> · <a href="index.html">Home</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
