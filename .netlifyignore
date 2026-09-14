@@ -1,6 +1,0 @@
-node_modules
-.netlify
-package-lock.json
-.git
-*.log
-.DS_Store
