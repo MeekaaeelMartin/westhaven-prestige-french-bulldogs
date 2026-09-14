@@ -1,17 +1,15 @@
-# Westhaven Prestige French Bulldogs
+# Westhaven French Bulldogs
 
-Static 4-page website for **Westhaven Prestige** (Katrina & Colton West) / kennel **Konfident Step**.
+Static 4-page website for **Westhaven** (Katrina & Colton West).
 
 ## Pages
 
 - `index.html` — Home
 - `about.html` — About
-- `dogs.html` — Dogs & current litter
+- `dogs.html` — Dogs, current litter & previous litter
 - `contact.html` — Contact
 
 ## Local preview
-
-Open `index.html` in a browser, or from this folder:
 
 ```bash
 npx serve .
@@ -19,4 +17,6 @@ npx serve .
 
 ## Deploy
 
-Configured for Netlify (publish directory: site root).
+```bash
+npm run deploy
+```
